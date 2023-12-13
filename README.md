@@ -1,5 +1,5 @@
 
-An online tic tac toe made using Node.js and WebSockets.
+An online game "tic tac toe" made using Node.js and WebSockets.
 
 1. Install the dependencies:
 `npm install`
