@@ -1,7 +1,7 @@
 {
-  "name": "tictactoe-online",
+  "name": "tic-tac-toe-online",
   "version": "1.0.0",
-  "description": "An online tic tac toe game",
+  "description": "An online game 'tic tac toe'",
   "private": true,
   "scripts": {
     "startdev": "nodemon --exec babel-node server/main.js",
