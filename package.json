@@ -6,7 +6,7 @@
   "scripts": {
     "startdev": "nodemon --exec babel-node server/main.js",
     "start": "node dist/main.js",
-    "build": "npm install && babel server -d dist"
+    "build": "babel server -d dist"
   },
   "author": "sofia",
   "devDependencies": {
