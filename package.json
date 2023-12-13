@@ -1,0 +1,29 @@
+{
+  "name": "tictactoe-online",
+  "version": "1.0.0",
+  "description": "An online tic tac toe game",
+  "private": true,
+  "scripts": {
+    "startdev": "nodemon --exec babel-node server/main.js",
+    "start": "node dist/main.js",
+    "build": "babel server -d dist"
+  },
+  "author": "sofia",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.4",
+    "webpack": "^5.1.0",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^3.3.3",
+    "ws": "^7.2.1"
+  }
+}
